@@ -57,7 +57,7 @@ public class TesteWrappers {
         primitivos (int e double, respectivamente).
          */
 
-        Integer num18 = Integer.valueOf(100);
+        Integer num18 = Integer.valueOf(355);
         System.out.println(num18);
         /*
         valueOf é um método que retorna uma instância do Wrapper correspondente ao valor primitivo ou à string passada.
