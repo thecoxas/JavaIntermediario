@@ -9,6 +9,7 @@ package com.intermediario.cursojava.enum01;
  * @author Welton
  */
 public class Pessoa {
+    private String nome;
     private TipoDocumento tipoDocumento;
     private String numeroDocumento;
 
@@ -35,6 +36,15 @@ public class Pessoa {
     public void setNumeroDocumento(String numeroDocumento) {
         this.numeroDocumento = numeroDocumento;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
 
     @Override
     public String toString() {
