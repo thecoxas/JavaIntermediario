@@ -23,6 +23,10 @@ public class Teste {
         substituirObjeto(pessoa);
         System.out.println(pessoa.getNome());  // Ainda será "Ana"
     }
+    /*
+    Neste exemplo, a tentativa de substituir o objeto dentro do método substituirObjeto() não tem efeito 
+    fora do método, pois a referência foi copiada e a alteração da cópia não afeta a variável original.
+    */
 }
 
 
